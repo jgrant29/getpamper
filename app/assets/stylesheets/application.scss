@@ -5,6 +5,7 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
  @import "variables";
+ @import "welcome";
 
 /* GLOBAL STYLES
 -------------------------------------------------- */
@@ -209,6 +210,7 @@ hr.purple:before {
 ------------------------- */
 
 .text-muted {
+  color: #1abc9c;
   font-family: 'Clicker Script', cursive;
 }
 
@@ -240,10 +242,10 @@ hr.purple:before {
   border-top: 15px solid #EEEEEE;
   color: $blue;
   font-size: 18px;
-  padding-top: 165px;
+  padding-top: 115px;
   background-color: #85144b;
   width: 100%;
-  height: 25rem;
+  height: 17rem;
   text-align: bottom;
   a {
     color: $blue;
