@@ -1,0 +1,131 @@
+<!-- Carousel
+  ================================================== -->
+  <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner carousel-inner-adjust" role="listbox">
+      <small class="pull-right lake-geneva-wisconsin">Lake Geneva, Wisconsin</small>
+      <div class="item active">
+        <%= image_tag('spa1.jpg') %>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Relax</h1>
+            <p class="carousel-text">Full body massage starting at $95</p>
+            <hr class="purple">
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <%= image_tag('spa3.jpg') %>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Rejuvinate</h1>
+            <p class="carousel-text">Waxing &amp; professional products for all skin types</p>
+            <hr class="purple">
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <%= image_tag('spa2.jpg') %>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Revive</h1>
+            <p class="carousel-text">Your skin matters</p>
+            <hr class="purple">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a> -->
+  </div><!-- /.carousel -->
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <%= image_tag('Cruiseline-625x400-c-default.jpg', class: 'img-circle', width: '140', height: '140') %>
+        <h2>Neighbors</h2>
+        <p>Founded in 2015, we know the local community and care about our fellow neighbors, friends and visitors of Lake Geneva, Wisconsin.  Stop in today for a friendly and free consultation.</p>
+        <p><a class="btn btn-default" href="#" role="button">Contact us &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <%= image_tag('IMG_3968.JPG', class: 'img-circle', width: '140', height: '140') %>
+        <h2>Skin Specialist</h2>
+        <p>As a skin care specialist, Certified with Dermalogica Products, Get Pampered Mini Spa offers many services priced affordable, one on one treatment.  Get the Spa experience WITHOUT the Resort Spa prices!</p>
+        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <%= image_tag('IMG_3967.JPG.jpeg', class: 'img-circle', width: '140', height: '140') %>
+        <h2>Essentials</h2>
+        <p>We offer an array of essential and personalized services inspired by local and ancient skin care traditions to help you battle aging, acne, dark-spots and other skin conditions.</p>
+        <p><a class="btn btn-default" href="#" role="button">Book an appointment &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Microdermabrasion.  <span class="text-muted">Your aging skin's worst enemy.</span></h2>
+        <p class="lead">Microdermabrasion treatments are aging skin's worst enemy because they lift all the incriminating skin that makes us look older and reveal the youthful, radiant skin that lies beneath.  Safe and effective for most skin types and tones, microdermabrasion treatments help to improve the texture of the skin as well as help address some forms of acne, oily skin, blackheads and whiteheads.  Recommended for men and woman.</p>
+      </div>
+      <div class="col-md-5">
+        <%= image_tag("images.jpg", class: "featurette-image featurette-image-1 img-responsive center-block") %>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 col-md-push-5">
+        <h2 class="featurette-heading">Natural-looking skin.  <span class="text-muted">See for yourself.</span></h2>
+        <p class="lead">Expert in delivering natural-looking, safe and effective results with the latest non-sugical cosmetic treatments, including microdermadrasion, physcian-desigend faicals, chemical peels and a healthy lifestyle.</p>
+      </div>
+      <div class="col-md-5 col-md-pull-7">
+        <%= image_tag("IMG_3962.JPG", class: "featurette-image img-responsive center-block") %>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Chemical Peels.  <span class="text-muted">A brighter, smoother and more refined you.</span></h2>
+        <p class="lead">Underneath your skin is a brighter, smoother and more refined complexion waiting to be revealed.  Chemical peels can help bring that out, instantly.  Whether you want to reduce discoloration caused by sun damage, clear up breakouts or smooth away the look of wrinkles, chemical peels are proven to noticeably imporve your skin in more ways than one.</p>
+      </div>
+      <div class="col-md-5">
+        <%= image_tag("IMG_3967.JPG.jpeg", class: "featurette-image featurette-image-1 img-responsive center-block") %>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+<script>
+
+  jQuery(document).ready(function($) {
+    $('.carousel').carousel({
+      pause: "false"
+    });
+  });
+</script>
