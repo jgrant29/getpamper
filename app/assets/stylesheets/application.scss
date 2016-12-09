@@ -208,12 +208,17 @@ hr.purple:before {
 /* Featurettes
 ------------------------- */
 
+.text-muted {
+  font-family: 'Clicker Script', cursive;
+}
+
 .featurette-divider {
   margin: 80px 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
 .featurette-heading {
+  color: #85144b;
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
