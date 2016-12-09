@@ -26,7 +26,7 @@ body {
 hr.purple { 
   height: 30px; 
   border-style: double; 
-  border-color: #FFFFFF; 
+  border-color: #85144b; 
   border-width: 1px 0 0 0; 
   border-radius: 20px; 
 } 
@@ -37,7 +37,7 @@ hr.purple:before {
   margin-top: -31px; 
   margin-bottom: 0px;
   border-style: double; 
-  border-color: #FFFFFF; 
+  border-color: #85144b; 
   border-width: 0 0 1px 0; 
   border-radius: 20px; 
 }
@@ -120,7 +120,7 @@ hr.purple:before {
 .carousel-caption {
   h1 {
     color: $blue;
-    text-shadow: 1px 1px 1px #FFFFFF;
+    text-shadow: 1px 1px 1px #85144b;
     font-family: 'Clicker Script', cursive;
     font-size: 70px;
   }
@@ -185,7 +185,7 @@ hr.purple:before {
 }
 
 .carousel-inner-adjust {
-  border-bottom: 60px solid #85144b;
+
 }
 
 
