@@ -39,11 +39,13 @@
   font-size: 30px;
   line-height: 1.5;
   margin-top: 10rem;
+
   p {
+    padding-bottom: 15rem;
     color: $rose-brown;
   }
   a {
-    padding: 14px;
+    padding: 8px;
     border: 5px solid $light-pink;
     color: $light-pink;
   }
