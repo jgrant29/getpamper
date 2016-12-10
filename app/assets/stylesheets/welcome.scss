@@ -1,9 +1,20 @@
+.marketing-background-1 {
+  background-color: #1d242c;
+  padding: 15rem 0;
+}
+
+.marketing-background-2 {
+  background-color: #ffffff;
+  padding-top: 10rem;
+  padding-bottom: 3rem;
+}
+
 .contact-page {
   background-image: image_url("wisconsin-lake-geneva-docks-at-dusk.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 400px;
+  height: 600px;
   border-bottom: 15px double $blue;
 }
 
@@ -21,12 +32,8 @@
 
 }
 
-#basic_map {
-  width: auto;
-  height: 400px;
-}
-
 .gmap {
+  width: 100%;
   border: 15px solid #eee;
   margin-bottom: 15rem;
 }
