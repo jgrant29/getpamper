@@ -7,6 +7,16 @@
   border-bottom: 15px double $blue;
 }
 
+.book-appointment {
+  font-family: 'Clicker Script', cursive;
+  color: #FFFFFF;
+  z-index: 5;
+  padding-top: 15rem;
+  h1 {
+  font-size: 60px;
+  }
+}
+
 .contact-section {
   border-bottom: 15px solid #eee;
 }
