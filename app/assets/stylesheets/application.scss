@@ -281,6 +281,15 @@ hr.purple:before {
 -------------------------------------------------- */
 
 @media (min-width: 768px) {
+  .navbar-brand {
+    text-shadow: 1px 1px 1px $salmon;
+    font-family: 'Clicker Script', cursive;
+    color: #FFFFFF !important;
+    font-size: 50px;
+    &:hover {
+      color: $salmon !important;
+    };
+  }
   /* Navbar positioning foo */
   .navbar-wrapper {
     padding-top: 20px;
@@ -320,5 +329,11 @@ hr.purple:before {
 @media (min-width: 992px) {
   .featurette-heading {
     /*margin-top: 120px;*/
+  }
+}
+
+@media (max-width: 568px) {
+  .navbar-brand {
+    font-size: 30px;
   }
 }
