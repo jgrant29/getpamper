@@ -9,6 +9,8 @@ source 'https://rubygems.org'
   gem 'plaid'
   gem 'mail_form'
   gem 'pg'
+  gem 'gmaps4rails'
+
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

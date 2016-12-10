@@ -1,16 +1,27 @@
- .bg-1 { 
-      background-color: #1abc9c; /* Green */
-      color: #ffffff;
-  }
-  .bg-2 { 
-      background-color: #474e5d; /* Dark Blue */
-      color: #ffffff;
-  }
-  .bg-3 { 
-      background-color: #ffffff; /* White */
-      color: #555555;
-  }
-  .bg-4 { 
-      background-color: #2f2f2f; /* Black Gray */
-      color: #fff;
-  }
+.contact-page {
+  background-image: image_url("IMG_0851.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 400px;
+  border-bottom: 15px double $blue;
+}
+
+.contact-section {
+  border-bottom: 15px solid #eee;
+}
+
+.gmap {
+  width: 100%;
+  border: 5px solid #eee;
+}
+
+.location {
+  padding-top: 115px;
+  height: 500px;
+}
+
+.contact-title {
+  font-family: 'Clicker Script', cursive;
+  font-size: 50px;
+}

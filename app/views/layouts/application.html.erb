@@ -6,6 +6,11 @@
    <%= stylesheet_link_tag    "application", media: "all" %>
    <%= javascript_include_tag "application" %>
    <link href="https://fonts.googleapis.com/css?family=Clicker+Script|Josefin+Sans" rel="stylesheet">
+   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEl9IJhygmkSDoY6zwZX7QqXzMiz-uRe4&callback=initMap"
+  type="text/javascript"></script>
+  <script src="//cdn.rawgit.com/mahnunchik/markerclustererplus/master/dist/markerclusterer.min.js"></script>
+  <script src='//cdn.rawgit.com/printercu/google-maps-utility-library-v3-read-only/master/infobox/src/infobox_packed.js' type='text/javascript'></script> <!-- only if you need custom infoboxes -->
+
     <%= csrf_meta_tags %>
   </head>
   <body>
@@ -21,14 +26,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">Get Pampered <small class="navbar-brand-small">Mini Spa</small></a>
+              <a class="navbar-brand" href="/">Get Pampered <small class="navbar-brand-small">Mini Spa</small></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav pull-right">
-                <li><a href="#">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#about">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="/welcome/contact">Contact</a></li>
               </ul>
             </div>
           </div>
