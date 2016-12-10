@@ -1,26 +1,21 @@
 <div class="container-fluid">
   <div class="row">
-    <div class="contact-page">
-    </div>
+    <div class="contact-page"></div>
     <div class="col-xs-12 contact-section">
       <div class="location text-center">
         <h1 class="contact-title">Get Pampered <small>Mini Spa<small></h1>
-        <ul>
-          <h3>W3407, Linton Rd</h3>
-          <h3>Lake Geneva, WI 53147</h3> 
-          <h3>(262) 949-2950</h3>
-        </ul>
+        <h3>W3407 Linton Rd</h3>
+        <h3>Lake Geneva, WI 53147</h3> 
+        <h3>(262) 949-2950</h3>
       </div>
     </div>
-    <div class="col-xs-12">
-      <div class="gmap">
-        <div id="basic_map" style='width: auto; height: 400px;'></div>
-      </div>
+  </div>
+  <div class="row">
+    <div class="gmap">
+      <div id="basic_map" style='width: auto; height: 400px;'></div>
     </div>
-
   </div>
 </div>
-
 <script>
 handler = Gmaps.build('Google');
 handler.buildMap({ provider: { maxZoom: 13, backgroundColor: "#FFFFFF" }, internal: {id: 'basic_map'}}, function(){
