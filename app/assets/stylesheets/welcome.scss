@@ -1,12 +1,11 @@
 .marketing-background-1 {
-  background-color: #1d242c;
+  background-color: $rose-brown;
   padding: 15rem 0;
 }
 
 .marketing-background-2 {
   background-color: #ffffff;
-  padding-top: 10rem;
-  padding-bottom: 3rem;
+  padding: 15rem 0;
 }
 
 .contact-page {
@@ -15,7 +14,7 @@
   background-repeat: no-repeat;
   background-position: center center;
   height: 600px;
-  border-bottom: 15px double $blue;
+  border-bottom: 15px double $salmon;
 }
 
 .book-appointment {
