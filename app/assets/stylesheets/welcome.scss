@@ -13,7 +13,7 @@
 
 .about-me-3 { 
   background-color: #FFFFFF;
-  height: 1000px;
+  height: 1200px;
 }
 
 .stacey {
@@ -41,7 +41,6 @@
   margin-top: 10rem;
 
   p {
-    padding-bottom: 15rem;
     color: $rose-brown;
   }
   a {
@@ -103,4 +102,10 @@
 .contact-title {
   font-family: 'Clicker Script', cursive;
   font-size: 50px;
+}
+
+@media (max-width: 568px) {
+  .about-me-3 { 
+  height: 180rem;
+}
 }
