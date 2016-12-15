@@ -1,6 +1,73 @@
+.affix-top {
+  position: relative;
+}
+
+.affix {
+  top: 81px;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  background-color: $rose-brown;
+  color: $light-pink;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+  color: $rose-brown;
+}
+
+.nav-pills > li > a {
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.table > thead > tr > th, .table > thead > tr > td, .table > tbody > tr > th, .table > tbody > tr > td, .table > tfoot > tr > th, .table > tfoot > tr > td {
+  border-color: $rose-brown !important;
+}
+
+.services {
+  background-color: rgba(89, 57, 57, 0.4);
+}
+
+.services-head {
+  background-attachment:fixed;
+  background-image: image_url("zen-001.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  background-color: rgba(89, 57, 57, 0.4);
+}
+
+.services-body {
+  padding-top: 15rem;
+  height: 100%;
+  padding-bottom: 10rem;
+}
+
+.services-body-container {
+  height: auto;
+}
+
+.tabbable-adjust {
+  display: inline-block;
+  float: none;
+  padding-bottom: 50px;
+}
+
+.tab-pane-adjust {
+  padding: 5rem;
+  background-color: rgba(255, 255, 255, .7);
+  font-size: 18px;
+}
+
+@media (max-width: 600px) {
+  .tab-pane-adjust {
+    font-size: 12px;
+  }
+}
+
 .about-hero {
   margin-top: 10rem;
-  }
+}
 
 .about-me {
   background-color: $rose-brown;
@@ -50,6 +117,21 @@
   }
 }
 
+.about-me-paragraph-2 {
+  font-size: 30px;
+  line-height: 1.5;
+  margin-top: 10rem;
+
+  p {
+    color: #FFFFFF;
+  }
+  a {
+    padding: 14px;
+    border: 5px solid #FFFFFF;
+    color: #FFFFFF;
+  }
+}
+
 .marketing-background-1 {
   background-color: $rose-brown;
   padding: 5rem 0;
@@ -61,11 +143,12 @@
 }
 
 .contact-page {
+  background-attachment:fixed;
   background-image: image_url("salon565.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 400px;
+  height: 600px;
   border-bottom: 2px solid $light-pink;
 }
 
@@ -74,7 +157,7 @@
   text-shadow: 1px 1px 1px $light-pink;
   color: #FFFFFF;
   z-index: 5;
-  padding-top: 15rem;
+  padding-top: 25rem;
   h1 {
   font-size: 80px;
   }
