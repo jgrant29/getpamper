@@ -1,0 +1,26 @@
+function piResponse() {
+piSetCookie('visitor_id36622', '372211826', 3650);
+
+if (document.location.protocol != "https:") {
+var analytics_link = "http://" + "/hello.heroku.com/analytics?";
+pi.tracker.visitor_id='372211826';
+
+pi.tracker.visitor_id_sign='23dfdf0b835ce98c43c1acc47cabee7da791e90979f4d20e8940dc9824b6ef0c59cd655a71f2dd8e6a6a9396973bb7fc465f6592';
+
+var variables = 'conly=true';
+for (property in pi.tracker) {
+	variables += "&"+property+"="+pi.tracker[property];
+}
+var headID = document.getElementsByTagName("head")[0];
+piScriptObj[piScriptNum] = document.createElement('script');
+piScriptObj[piScriptNum].type = 'text/javascript';
+piScriptObj[piScriptNum].src = analytics_link + variables;
+headID.appendChild(piScriptObj[piScriptNum]);
+piScriptObj[piScriptNum].onload = function() { return; }
+}
+}
+piResponse();
+
+
+
+
