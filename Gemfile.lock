@@ -98,6 +98,8 @@ GEM
     plaid (4.0.0)
     puma (3.9.1)
     rack (1.6.8)
+    rack-cache (1.7.0)
+      rack (>= 0.4)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (4.2.9)
@@ -184,6 +186,7 @@ DEPENDENCIES
   pg
   plaid
   puma
+  rack-cache
   rails (= 4.2.9)
   rails_12factor
   sass-rails (~> 5.0)

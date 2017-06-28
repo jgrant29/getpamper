@@ -12,6 +12,7 @@ source 'https://rubygems.org'
   gem 'gmaps4rails'
   gem 'puma'
   gem 'heroku-deflater', :group => :production
+  gem 'rack-cache'
 
 
 
