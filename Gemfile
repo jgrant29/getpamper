@@ -13,6 +13,7 @@ source 'https://rubygems.org'
   gem 'puma'
   gem 'heroku-deflater', :group => :production
   gem 'rack-cache'
+  gem 'sitemap_generator'
 
 
 
