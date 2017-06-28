@@ -8,6 +8,10 @@ Bundler.require(*Rails.groups)
 
 module Getpampered
   class Application < Rails::Application
+    config.middleware.use Rack::Cache,
+       verbose:     true,
+       metastore:   'file:/var/cache/rack/meta',
+       entitystore: 'file:/var/cache/rack/body'
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
@@ -22,6 +26,6 @@ module Getpampered
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
-    config.action_dispatch.rack_cache = true
+    
   end
 end
