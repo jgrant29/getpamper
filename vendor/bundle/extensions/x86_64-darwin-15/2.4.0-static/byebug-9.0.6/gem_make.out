@@ -1,0 +1,19 @@
+current directory: /Users/justinMgrant/code/getpampered/vendor/bundle/gems/byebug-9.0.6/ext/byebug
+/Users/justinMgrant/.rbenv/versions/2.4.0/bin/ruby -r ./siteconf20170628-1935-jpx4e0.rb extconf.rb
+creating Makefile
+
+current directory: /Users/justinMgrant/code/getpampered/vendor/bundle/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/justinMgrant/code/getpampered/vendor/bundle/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/justinMgrant/code/getpampered/vendor/bundle/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 byebug.bundle ./.gem.20170628-1935-106d8h1/byebug

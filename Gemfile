@@ -10,11 +10,13 @@ source 'https://rubygems.org'
   gem 'mail_form'
   gem 'pg'
   gem 'gmaps4rails'
+  gem 'puma'
+  gem 'heroku-deflater', :group => :production
 
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.6'
+gem 'rails', '4.2.9'
 # Use sqlite3 as the database for Active Record
 group :production do
   gem 'rails_12factor'

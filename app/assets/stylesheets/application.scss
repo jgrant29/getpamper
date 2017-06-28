@@ -17,6 +17,10 @@ body {
   font-family: 'Josefin Sans', sans-serif;
 }
 
+.hidden-getpampered {
+  display: none;
+}
+
 /* custom 
 ------------------------------------ */
 
@@ -199,6 +203,8 @@ hr.purple:before {
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
+
+
 .marketing .col-lg-4 {
   margin-bottom: 20px;
   text-align: center;

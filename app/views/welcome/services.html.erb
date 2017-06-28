@@ -1,11 +1,12 @@
-<div class="container-fluid services-head">
+<% @title ="Services | Get Pampered mini spa | Lake Geneva, Wisconsin" %>
+<div itemscope itemtype="http://schema.org/Service" class="container-fluid services-head" role="main">
   <div class="row">
     <div class="services services-body">
       <div class="text-center">
         <div class="tabbable tabbable-adjust">
           <h1 style="color: #FFFFFF;">Menu</h1>
           <hr>
-          <ul class="nav nav nav-pills nav-pills-adjust">
+          <ul itemprop="serviceType" class="nav nav nav-pills nav-pills-adjust">
             <li class="active"><a href="#massage" data-toggle="tab">Massage</a></li>
             <li><a href="#wax" data-toggle="tab">Waxing</a></li>
             <li><a href="#addon" data-toggle="tab">Add-ons</a></li>
@@ -16,8 +17,8 @@
       </div>
       <div class="container services-body-container">
         <div class="tab-content">
-          <div class="tab-pane tab-pane-adjust active fade in" id="massage">
-            <h1>Massages by Get Pampered <small>Mini Spa</small></h1>
+          <div itemprop="provider" itemscope itemtype="http://schema.org/LocalBusiness" class="tab-pane tab-pane-adjust active fade in" id="massage">
+            <h1 itemprop="name">Massages by <span class="brand">Get Pampered <small>Mini Spa</small></span></h1>
             <hr>
             <table class="table table-responsive table-hover">
               <thead>
@@ -34,38 +35,8 @@
                   <td>$60</td>
                 </tr>
                 <tr>
-                  <td>90 MinutesMassage</td>
+                  <td>90 Minutes</td>
                   <td>Massage</td>
-                  <td>$85</td>
-                </tr>
-                <tr>
-                  <td>Mineral Salt Scrub Therapy</td>
-                  <td>Body Treatment</td>
-                  <td>$85</td>
-                </tr>
-                <tr>
-                  <td>Body Foliation Therapy</td>
-                  <td>Body Treatment</td>
-                  <td>$85</td>
-                </tr>
-                <tr>
-                  <td>Power Recovery Therapy</td>
-                  <td>Body Treatment</td>
-                  <td>$85</td>
-                </tr>
-                <tr>
-                  <td>Nourishing Sea Mud Therapy</td>
-                  <td>Body Treatment</td>
-                  <td>$85</td>
-                </tr>
-                <tr>
-                  <td>Mud Massage Therapy</td>
-                  <td>Body Treatment</td>
-                  <td>$85</td>
-                </tr>
-                <tr>
-                  <td>Thermal Touch Back Purification</td>
-                  <td>Body Treatment</td>
                   <td>$85</td>
                 </tr>
               </tbody>
@@ -238,7 +209,6 @@
           </div>
         </div>
         <div class="about-me-paragraph-2">
-          <p>Body Treatments are customized to either energize or reduce stress.  Exfoliating your skin or detoxifying your Skin will renew healthy cell turnover to give an all over Body Glow!  Body Treatments are soothing, relaxing and nourishing to your skin, as well as helping with blood circulation.  I believe we need to take care of not just our face, but our whole body.  Moisturizing, conditioning, hydrating, polishes, protects, with natural oils, peptides and antioxidants.  Body Treatments are very Therapeutic!</p>
           <br>
           <span class="about-button pull-right"><%= link_to "Contact me", welcome_contact_path %></span>
         </div>

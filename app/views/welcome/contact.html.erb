@@ -1,3 +1,4 @@
+<% @title ="Contact | Get Pampered mini spa | Lake Geneva, Wisconsin" %>
 <div class="container-fluid">
   <div class="row">
     <div class="contact-page hidden-xs">
@@ -7,12 +8,15 @@
     </div>
     <div class="col-xs-12 contact-section">
       <div class="location col-md-8 col-md-offset-2 text-center">
-        <%= image_tag('11899760_154835718185379_8484751466328785442_n.jpg', class: 'img-circle', width: '140', height: '140') %>
+        <%= image_tag('mom.jpeg', class: 'img-circle', width: '140', height: '140') %>
         <h1 class="contact-title">Get Pampered <small>Mini Spa<small></h1>
+        <h5>Tuesday thru Saturday 10AM–6PM, Closed Sunday and Monday</h5>
         <h1>Stacey Pacholczak</h1>
-        <h1>W3407 Linton Rd</h1>
-        <h1>Lake Geneva, WI 53147</h1> 
-        <h1>(262) 949-2950</h1>
+        <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <h1 itemprop="streetAddress">W3407 Linton Rd</h1>
+          <h1><span itemprop="addressLocality">Lake Geneva</span>, <span itemprop="addressRegion">WI</span> <span itemprop="postalCode">53147</span></h1> 
+        </div>
+        <h1 itemprop="telephone">(262) 949-2950</h1>
       </div>
     </div>
   </div>

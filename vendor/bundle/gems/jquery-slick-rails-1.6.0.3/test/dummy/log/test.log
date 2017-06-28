@@ -1,0 +1,115 @@
+Started GET "/assets/jquery.slick.js" for 127.0.0.1 at 2015-12-02 15:47:03 +0300
+Compiled jquery.slick.js  (1ms)  (pid 1632)
+Served asset /jquery.slick.js - 200 OK (31ms)
+Started GET "/assets/jquery.slick.js" for 127.0.0.1 at 2015-12-02 15:47:03 +0300
+Served asset /jquery.slick.js - 200 OK (0ms)
+Started GET "/assets/jquery.slick.js" for 127.0.0.1 at 2015-12-02 15:48:59 +0300
+Served asset /jquery.slick.js - 200 OK (27ms)
+Started GET "/assets/jquery.slick.js" for 127.0.0.1 at 2015-12-02 15:48:59 +0300
+Served asset /jquery.slick.js - 200 OK (0ms)
+Started GET "/assets/slick.css" for 127.0.0.1 at 2015-12-02 15:49:38 +0300
+Compiled slick.css  (0ms)  (pid 5548)
+Served asset /slick.css - 200 OK (42ms)
+Started GET "/assets/jquery.slick.js" for 127.0.0.1 at 2015-12-02 15:49:38 +0300
+Served asset /jquery.slick.js - 200 OK (3ms)
+Started GET "/assets/jquery.slick.js" for 127.0.0.1 at 2015-12-02 15:49:38 +0300
+Served asset /jquery.slick.js - 200 OK (0ms)
+Started GET "/assets/slick-theme.css" for 127.0.0.1 at 2015-12-02 15:50:13 +0300
+Compiled slick-theme.css  (2ms)  (pid 1252)
+Served asset /slick-theme.css - 200 OK (26ms)
+Started GET "/assets/slick.css" for 127.0.0.1 at 2015-12-02 15:50:13 +0300
+Served asset /slick.css - 200 OK (9ms)
+Started GET "/assets/slick.eot" for 127.0.0.1 at 2015-12-02 15:50:13 +0300
+Served asset /slick.eot - 200 OK (7ms)
+Started GET "/assets/jquery.slick.js" for 127.0.0.1 at 2015-12-02 15:50:13 +0300
+Served asset /jquery.slick.js - 200 OK (3ms)
+Started GET "/assets/jquery.slick.js" for 127.0.0.1 at 2015-12-02 15:50:13 +0300
+Served asset /jquery.slick.js - 200 OK (0ms)
+Started GET "/assets/slick-theme.css" for 127.0.0.1 at 2016-03-25 22:31:57 +0300
+Served asset /slick-theme.css - 200 OK (42ms)
+Started GET "/assets/slick.css" for 127.0.0.1 at 2016-03-25 22:31:57 +0300
+Served asset /slick.css - 200 OK (5ms)
+Started GET "/assets/slick.eot" for 127.0.0.1 at 2016-03-25 22:31:57 +0300
+Served asset /slick.eot - 200 OK (0ms)
+Started GET "/assets/jquery.slick.js" for 127.0.0.1 at 2016-03-25 22:31:57 +0300
+Compiled jquery.slick.js  (2ms)  (pid 5612)
+Served asset /jquery.slick.js - 200 OK (17ms)
+Started GET "/assets/jquery.slick.js" for 127.0.0.1 at 2016-03-25 22:31:57 +0300
+Served asset /jquery.slick.js - 200 OK (0ms)
+Started GET "/assets/slick-theme.css" for 127.0.0.1 at 2016-03-25 22:32:59 +0300
+Served asset /slick-theme.css - 200 OK (1ms)
+Started GET "/assets/slick.css" for 127.0.0.1 at 2016-03-25 22:32:59 +0300
+Served asset /slick.css - 200 OK (0ms)
+Started GET "/assets/slick.eot" for 127.0.0.1 at 2016-03-25 22:32:59 +0300
+Served asset /slick.eot - 200 OK (1ms)
+Started GET "/assets/jquery.slick.js" for 127.0.0.1 at 2016-03-25 22:32:59 +0300
+Served asset /jquery.slick.js - 200 OK (0ms)
+Started GET "/assets/jquery.slick.js" for 127.0.0.1 at 2016-03-25 22:32:59 +0300
+Served asset /jquery.slick.js - 200 OK (0ms)
+Started GET "/assets/slick-theme.css" for 127.0.0.1 at 2016-03-25 22:39:38 +0300
+Served asset /slick-theme.css - 200 OK (3ms)
+Started GET "/assets/slick.css" for 127.0.0.1 at 2016-03-25 22:39:38 +0300
+Served asset /slick.css - 200 OK (2ms)
+Started GET "/assets/slick.eot" for 127.0.0.1 at 2016-03-25 22:39:38 +0300
+Served asset /slick.eot - 200 OK (0ms)
+Started GET "/assets/jquery.slick.js" for 127.0.0.1 at 2016-03-25 22:39:38 +0300
+Served asset /jquery.slick.js - 200 OK (0ms)
+Started GET "/assets/jquery.slick.js" for 127.0.0.1 at 2016-03-25 22:39:38 +0300
+Served asset /jquery.slick.js - 200 OK (0ms)
+Started GET "/assets/slick-theme.css" for 127.0.0.1 at 2016-05-11 00:35:43 +0300
+Served asset /slick-theme.css - 200 OK (40ms)
+Started GET "/assets/slick.css" for 127.0.0.1 at 2016-05-11 00:35:43 +0300
+Served asset /slick.css - 200 OK (69ms)
+Started GET "/assets/slick.eot" for 127.0.0.1 at 2016-05-11 00:35:43 +0300
+Served asset /slick.eot - 200 OK (9ms)
+Started GET "/assets/jquery.slick.js" for 127.0.0.1 at 2016-05-11 00:35:43 +0300
+Compiled jquery.slick.js  (0ms)  (pid 6120)
+Served asset /jquery.slick.js - 200 OK (50ms)
+Started GET "/assets/jquery.slick.js" for 127.0.0.1 at 2016-05-11 00:35:43 +0300
+Served asset /jquery.slick.js - 200 OK (0ms)
+-----------------------------------------------
+NavigationTest: test_can_access_slick-theme.css
+-----------------------------------------------
+Started GET "/assets/slick-theme.css" for 127.0.0.1 at 2017-06-08 15:48:36 +0300
+-----------------------------------------
+NavigationTest: test_can_access_slick.css
+-----------------------------------------
+Started GET "/assets/slick.css" for 127.0.0.1 at 2017-06-08 15:48:37 +0300
+-----------------------------------------
+NavigationTest: test_can_access_slick.eot
+-----------------------------------------
+Started GET "/assets/slick.eot" for 127.0.0.1 at 2017-06-08 15:48:37 +0300
+----------------------------------------
+NavigationTest: test_can_access_slick.js
+----------------------------------------
+Started GET "/assets/jquery.slick.js" for 127.0.0.1 at 2017-06-08 15:48:37 +0300
+---------------------------------------------------------------
+NavigationTest: test_slick_response_is_for_the_expected_version
+---------------------------------------------------------------
+Started GET "/assets/jquery.slick.js" for 127.0.0.1 at 2017-06-08 15:48:37 +0300
+--------------------------------
+JquerySlickRailsTest: test_truth
+--------------------------------
+-----------------------------------------
+NavigationTest: test_can_access_slick.css
+-----------------------------------------
+Started GET "/assets/slick.css" for 127.0.0.1 at 2017-06-08 15:49:47 +0300
+-----------------------------------------
+NavigationTest: test_can_access_slick.eot
+-----------------------------------------
+Started GET "/assets/slick.eot" for 127.0.0.1 at 2017-06-08 15:49:47 +0300
+-----------------------------------------------
+NavigationTest: test_can_access_slick-theme.css
+-----------------------------------------------
+Started GET "/assets/slick-theme.css" for 127.0.0.1 at 2017-06-08 15:49:47 +0300
+---------------------------------------------------------------
+NavigationTest: test_slick_response_is_for_the_expected_version
+---------------------------------------------------------------
+Started GET "/assets/jquery.slick.js" for 127.0.0.1 at 2017-06-08 15:49:47 +0300
+----------------------------------------
+NavigationTest: test_can_access_slick.js
+----------------------------------------
+Started GET "/assets/jquery.slick.js" for 127.0.0.1 at 2017-06-08 15:49:47 +0300
+--------------------------------
+JquerySlickRailsTest: test_truth
+--------------------------------

@@ -28,6 +28,10 @@
   font-style: oblique;
 }
 
+.brand {
+  font-family: 'Clicker Script', cursive;
+}
+
 .services {
   background-color: rgba(89, 57, 57, 0.4);
 }
@@ -89,15 +93,17 @@
 }
 
 .stacey {
-  background-image: image_url("11899760_154835718185379_8484751466328785442_n.jpg");
+  background-image: image_url("tree.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   width: 350px;
   height: 350px;
   border-radius: 200px;
-  border: 6px solid $rose-brown;
+  border: 6px solid #FFFFFF;
   margin: 0 auto;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .about-me-text {
@@ -184,7 +190,9 @@
 
 .location {
   padding-top: 95px;
-  height: 600px;
+  height: auto;
+  min-height: 600px;
+
 }
 
 .contact-title {
