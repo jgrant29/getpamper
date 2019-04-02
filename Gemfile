@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+  ruby '2.4.0'
   gem 'bootstrap-sass'
   gem 'figaro', '1.0'
   gem "breadcrumbs_on_rails"
@@ -8,7 +8,7 @@ source 'https://rubygems.org'
   gem "font-awesome-rails"
   gem 'plaid'
   gem 'mail_form'
-  gem 'pg'
+  gem 'pg', '~> 0.20'
   gem 'gmaps4rails'
   gem 'puma'
   gem 'heroku-deflater', :group => :production
