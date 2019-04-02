@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-  ruby '2.4.0'
-
   gem 'bootstrap-sass'
   gem 'figaro', '1.0'
   gem "breadcrumbs_on_rails"
