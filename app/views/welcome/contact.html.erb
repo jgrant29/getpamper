@@ -22,24 +22,4 @@
       </div>
     </div>
   </div>
-  <div class="row visible-md visible-lg">
-    <div class="gmap">
-      <div id="basic_map" style='width: auto; height: 600px;'></div>
-    </div>
-  </div>
 </div>
-<script>
-handler = Gmaps.build('Google');
-handler.buildMap({ provider: { maxZoom: 13, backgroundColor: "#FFFFFF" }, internal: {id: 'basic_map'}}, function(){
-  myLatLng = new google.maps.LatLng({lat: -34, lng: 151});
-  markers = handler.addMarkers([
-    {
-       "lat": 42.5456022,
-        "lng": -88.4678635,
-      "infowindow": "Get Pampered Mini Spa, W3407 Linton Rd, Lake Geneva, WI 53147<br><a href=\"https://www.google.com/maps/place/Get+Pampered+Mini+Spa/@42.5457919,-88.4685072,18z/data=!4m5!3m4!1s0x0:0xfc3fc7ab2bceb09!8m2!3d42.5456022!4d-88.4678635\">Get Directions</a>"
-    }
-  ]);
-  handler.bounds.extendWith(markers);
-  handler.fitMapToBounds();
-});
-</script>
